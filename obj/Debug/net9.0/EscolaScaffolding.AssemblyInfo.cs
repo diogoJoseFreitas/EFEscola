@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EscolaScaffolding")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5bbcda5b30f43e11b2489003016b9c91b8a8c135")]
 [assembly: System.Reflection.AssemblyProductAttribute("EscolaScaffolding")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EscolaScaffolding")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
