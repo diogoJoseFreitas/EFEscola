@@ -1,0 +1,93 @@
+## Build results
+bin/
+obj/
+[Bb]uild/
+[Ll]ogs/
+*.log
+*.tlog
+
+## User-specific files
+*.user
+*.userosscache
+*.suo
+*.sdf
+*.cache
+*.dbmdl
+*.pdb
+*.vsp
+*.psess
+*.vspx
+*.pidb
+
+## OS-generated files
+.DS_Store
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+## Visual Studio Code
+.vscode/
+.history/
+*.code-workspace
+
+## Visual Studio
+.vs/
+*.csproj.user
+*.sln.docstates
+*.ncrunch*
+*.localhistory/
+
+## Rider
+.idea/
+*.sln.iml
+
+## ASP.NET Core secrets
+**/appsettings.Development.json
+**/appsettings.Local.json
+secrets.json
+
+## Entity Framework
+**/Migrations/
+**/*.bak
+**/*.db
+
+## dotnet CLI artifacts
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+## NuGet
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+*.nuspec
+project.json
+*.vspscc
+*.vssscc
+
+## Resharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+## Coverage and Test Results
+TestResults/
+*.coverage
+*.coveragexml
+*.testsettings
+*.vsmdi
+*.trx
+*.xunit.xml
+
+## Others
+*.tmp
+*.temp
+*.swp
+*.bak
+*.orig
+
+## EF Core tools (Scaffolding)
+ScaffoldingReadMe.txt
+
+.connectionstring
