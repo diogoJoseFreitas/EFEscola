@@ -1,0 +1,29 @@
+@model List<EscolaScaffolding.Models.Aluno> 
+
+@{
+    ViewData["Title"] = "Lista de Alunos";
+}
+
+<h2>Lista de Alunos</h2>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Nome</th>
+            <th>cpf</th>
+            <!-- Add other properties of Aluno as needed -->
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var aluno in Model)
+        {
+            <tr>
+                <td>@aluno.AlunoId</td>
+                <td>@aluno.Nome</td>
+                <td>@aluno.Cpf</td>
+                <!-- Match properties of Aluno class -->
+            </tr>
+        }
+    </tbody>
+</table>
